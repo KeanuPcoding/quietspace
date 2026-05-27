@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Quiet Space</title>
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <main class="container">
+
+    <header class="header">
+      <h1>Quiet Space</h1>
+      <p class="subtitle">You don’t have to respond to anything here.</p>
+    </header>
+
+    <section class="card">
+      <p>
+        This is just a quiet space for you to exist for a moment.<br />
+        No pressure. No expectations.
+      </p>
+    </section>
+
+    <section class="reassurance">
+      <p>You are allowed to feel how you feel.</p>
+      <p>You don’t need to explain everything.</p>
+      <p>You matter, even in silence.</p>
+      <p>You are not alone.</p>
+    </section>
+
+    <section class="actions">
+      <button onclick="toggleMessage()">Take a moment</button>
+      <button onclick="togglePrincess()">My Princess</button>
+    </section>
+
+    <section id="message" class="message hidden"></section>
+
+    <section id="princess" class="princess hidden">
+
+      <div class="slideshow">
+
+        <img class="slide active" src="photo 1.jpg" alt="photo 1" />
+        <img class="slide" src="photo 2.jpg" alt="photo 2" />
+        <img class="slide" src="photo 3.jpg" alt="photo 3" />
+        <img class="slide" src="photo 4.jpg" alt="photo 4" />
+
+        <img class="slide" src="photo 5.jpeg" alt="photo 5" />
+        <img class="slide" src="photo 6.jpg" alt="photo 6" />
+        <img class="slide" src="photo 7.jpg" alt="photo 7" />
+        <img class="slide" src="photo 8.jpg" alt="photo 8" />
+        <img class="slide" src="photo 9.jpg" alt="photo 9" />
+        <img class="slide" src="photo 10.jpg" alt="photo 10" />
+
+      </div>
+
+      <p class="caption">A small reminder of you 🤍</p>
+
+    </section>
+
+    <footer class="footer">
+      <p>I’m here quietly.</p>
+    </footer>
+
+  </main>
+
+  <!-- BUNNY BOT -->
+  <div class="kitty-bot">
+
+    <div class="bunny-head">
+
+      <div class="helmet">
+        <div class="skull"></div>
+      </div>
+
+      <div class="ear left"></div>
+      <div class="ear right"></div>
+
+      <div class="eye left"></div>
+      <div class="eye right"></div>
+
+      <div class="nose"></div>
+      <div class="mouth"></div>
+
+    </div>
+
+    <div class="thought-bubble">
+      <span id="botText">I’m here with you.</span>
+    </div>
+
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
